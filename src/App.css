@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400;1,700&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+* {
+  font-family: 'Poppins', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #14161a;
+  color: white;
+  min-height: 100vh;
+}
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00c897;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00c897;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 7px 10px 12px #f0f0f0;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+
+.btn:hover {
+  background: #019267;
+  outline: none;
+}
+.btn {
+  background: #00c897;
+  border: none;
+  outline: none;
+  --bs-btn-active-bg: #019267;
+}
+
+.Brand {
+  font-weight: 500;
+}
+.Select {
+  cursor: pointer;
+}
+
+.Heading1 {
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: rgb(157, 155, 153);
+  padding-top: 60px;
+}
+
+.Heading2 {
+  font-size: 20px;
+  line-height: 1.4;
+  color: rgb(157, 155, 153);
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.input-1 {
+  background-color: #14161a;
+  width: 80% !important;
+  padding: 10px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 15px;
+}
+.img-1 {
+  padding: 0 0 0 90px;
+  cursor: pointer;
+  width: 350px;
+}
+.text-center {
+  color: rgb(157, 155, 153);
+  font-size: 30px;
+  font-weight: 700;
+  padding: 30px;
+}
+.text-center-2 {
+  margin-bottom: 30px;
+}
+.tab {
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 720px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .img-1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .Col-1 {
+    padding-bottom: 30px;
+  }
+}
