@@ -8,7 +8,7 @@ CryptoMaster is an innovative and user-friendly web application designed to prov
 
 ### 2.1 System interfaces
 
-- Web browser: Firefox 93.0
+- Web browser: Firefox >= 93.0
 - Used tech: JavaScript, ReactJs
 - Development tools: git, npm
 
