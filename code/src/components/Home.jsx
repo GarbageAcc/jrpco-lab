@@ -1,10 +1,10 @@
-import Table from './CoinTable';
-import React from 'react';
+import Table from "./CoinTable";
+import React from "react";
 
-const Home = () => {
+const Home = ({ money, setMoney }) => {
   return (
     <div>
-      <Table />
+      <Table money={money} setMoney={setMoney} />
     </div>
   );
 };
