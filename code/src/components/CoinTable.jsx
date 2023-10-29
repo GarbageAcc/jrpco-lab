@@ -90,7 +90,7 @@ const CoinTable = ({ money, setMoney }) => {
               <th>Price</th>
               <th>24H Change</th>
               <th className="hide-mobile">Market Cap</th>
-              <th>Buy</th>
+              <th>Buy/Sell</th>
             </tr>
           </thead>
           <tbody>
